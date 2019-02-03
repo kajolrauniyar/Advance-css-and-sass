@@ -12,6 +12,22 @@
         <title>Natours | Exciting tours for adventurous people</title>
 	</head>
 	<body>
+	<!-- 	navigation start -->
+	<div class="navigation">
+		<input type="checkbox" class="navigation__checkbox" id="navi_toggle">
+		<label for="navi_toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span></label>
+		<div class="navigation__background">&nbsp;</div>
+		<div class="navigation__nav">
+			<ul class="navigation__list">
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Nepal</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your Benefits</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular Tours</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book Now</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 	navigation end -->
 		<!-- heading start  element __, mofifier--,-->
 		<header class="header">
 			<div class="header__logo-box">
@@ -19,10 +35,10 @@
 			</div>
 			<div class="header__text-box">
 				<h1 class="heading-primary">
-					<span class="heading-primary--main">Outdoor</span>
-					<span class="heading-primary--sub"> Is Where Life Happens</span>
+					<span class="heading-primary--main">Nepal</span>
+					<span class="heading-primary--sub">Beauty of Mountains</span>
 				</h1>
-				<a href="" class="btn btn--white btn--animated">Discover Our Tour</a>
+				<a href="#section-tour" class="btn btn--white btn--animated">Discover Our Tour</a>
 			</div>
 		</header>
 
@@ -100,7 +116,7 @@
 		
 		<!-- main end -->
 		<!-- section tour start -->
-		<section class="section-tour">
+		<section class="section-tour" id="section-tour">
 			<div class="u-center-text u-margin-buttom-big">
 				<h2 class="heading-secondary">
 					Most Popular Tours
@@ -136,7 +152,7 @@
 								<p class="card__price-value">$29</p>
 							</div>
 							<div>
-								<a href="" class="btn btn--white">Book Now</a>
+								<a href="#popup" class="btn btn--white">Book Now</a>
 							</div>
 						</div>
 						</div>
@@ -171,7 +187,7 @@
 								<p class="card__price-value">$29</p>
 							</div>
 							<div>
-								<a href="" class="btn btn--white">Book Now</a>
+								<a href="#popup" class="btn btn--white">Book Now</a>
 							</div>
 						</div>
 						</div>
@@ -206,7 +222,7 @@
 								<p class="card__price-value">$29</p>
 							</div>
 							<div>
-								<a href="" class="btn btn--white">Book Now</a>
+								<a href="#popup" class="btn btn--white">Book Now</a>
 							</div>
 						</div>
 						</div>
@@ -336,6 +352,27 @@
 			</div>
 		</footer>
 		<!-- footer end -->
+		<!-- pop up start -->
+		<div class="popup" id="popup">
+			<div class="popup__content">
+				<div class="popup__left">
+					<img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+					<img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+				</div>
+				<div class="popup__right">
+					<a href="#section-tours" class="popup__close">&times;</a>
+					<h2 class="heading-secondary u-margin-buttom-small">Start Booking now</h2>
+					<h3 class="heading-tertiary  u-margin-buttom-small">Important &ndash; Please read this term before booking.</h3>
+					<p class="popup__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, excepturi hic unde eligendi obcaecati ullam sint porro a voluptatem ut natus, laboriosam accusantium dolor nisi sequi maiores at totam impedit. Quia explicabo ea, suscipit.
+					</p>
+					<a href="#" class="btn btn--green">Book Now</a>
+					
+				</div>
+			</div>
+		</div>
+
+		<!-- pop up end-->
 		<!-- grid start -->
 	<!-- 	<section class="grid-test">
 			<div class="row">
