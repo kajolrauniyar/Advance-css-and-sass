@@ -1,5 +1,5 @@
 .card{
-/* 	functionality style */
+	/* 	functionality style */
 	perspective: 150rem;
 	-max-perspective:150rem;
 	position: relative;
@@ -126,5 +126,8 @@
 	&__price-value{
 		font-size: 6rem;
 		font-weight: 100;
+	}
+	@include respond(tab-port){
+
 	}
 }
